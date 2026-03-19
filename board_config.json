@@ -1,0 +1,38 @@
+{
+  "engagement_status_map": {
+    "in progress": "Active",
+    "active": "Active",
+    "complete": "Complete",
+    "done": "Complete",
+    "on hold": "On Hold",
+    "not started": "Not Started"
+  },
+  "deliverable_status_map": {
+    "to do": "To Do",
+    "not started": "To Do",
+    "in progress": "In Progress",
+    "working on it": "In Progress",
+    "in review": "In Review",
+    "done": "Done"
+  },
+  "engagements_board_id": "18404650148",
+  "engagements_columns": {
+    "engagement_id": "text_mm1k49e8",
+    "client": "text_mm1kaw6d",
+    "lead": "text_mm1kmzr2",
+    "start_date": "date_mm1ktan",
+    "end_date": "date_mm1kz0j7",
+    "budget": "numeric_mm1k421g",
+    "status": "color_mm1kaevw"
+  },
+  "deliverables_board_id": "18404650197",
+  "deliverables_columns": {
+    "deliverable_id": "text_mm1km0ga",
+    "assignee": "text_mm1k7gew",
+    "due_date": "date_mm1k2m9f",
+    "priority": "color_mm1k1ves",
+    "status": "color_mm1k194c",
+    "hours": "numeric_mm1kc33s",
+    "engagement": "board_relation_mm1k3t7n"
+  }
+}

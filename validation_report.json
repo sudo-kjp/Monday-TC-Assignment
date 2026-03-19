@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-03-19T14:20:05.535988",
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8
+  },
+  "count_checks": [
+    {
+      "check": "Engagement count",
+      "expected": 6,
+      "actual": 6,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Deliverable count",
+      "expected": 27,
+      "actual": 27,
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "id_checks": [
+    {
+      "check": "All engagement IDs present",
+      "pass": true,
+      "detail": null,
+      "missing": []
+    },
+    {
+      "check": "All deliverable IDs present",
+      "pass": true,
+      "detail": null,
+      "missing": []
+    }
+  ],
+  "field_checks": [
+    {
+      "check": "No orphaned deliverables (all linked to an engagement)",
+      "pass": true,
+      "detail": null,
+      "orphans": []
+    },
+    {
+      "check": "Required deliverable fields populated (assignee, due date, hours)",
+      "pass": true,
+      "detail": null,
+      "issues": []
+    }
+  ],
+  "engagement_status_check": {
+    "check": "Engagement status normalization (raw CSV \u2192 monday value)",
+    "pass": true,
+    "detail": null,
+    "results": [
+      {
+        "engagement": "Digital Transformation Strategy",
+        "raw_csv_value": "In Progress",
+        "expected": "Active",
+        "actual_in_monday": "Active",
+        "pass": true
+      },
+      {
+        "engagement": "Operational Excellence Program",
+        "raw_csv_value": "Active",
+        "expected": "Active",
+        "actual_in_monday": "Active",
+        "pass": true
+      },
+      {
+        "engagement": "Market Entry Analysis",
+        "raw_csv_value": "In Progress",
+        "expected": "Active",
+        "actual_in_monday": "Active",
+        "pass": true
+      },
+      {
+        "engagement": "Supply Chain Optimization",
+        "raw_csv_value": "Complete",
+        "expected": "Complete",
+        "actual_in_monday": "Complete",
+        "pass": true
+      },
+      {
+        "engagement": "Customer Experience Redesign",
+        "raw_csv_value": "On Hold",
+        "expected": "On Hold",
+        "actual_in_monday": "On Hold",
+        "pass": true
+      },
+      {
+        "engagement": "Workforce Planning Initiative",
+        "raw_csv_value": "Not Started",
+        "expected": "Not Started",
+        "actual_in_monday": "Not Started",
+        "pass": true
+      }
+    ],
+    "failures": []
+  },
+  "deliverable_status_check": {
+    "check": "Deliverable status normalization (raw CSV \u2192 monday value)",
+    "pass": true,
+    "detail": null,
+    "results": [
+      {
+        "deliverable": "Current State Assessment",
+        "deliverable_id": "DEL-001",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Stakeholder Interviews",
+        "deliverable_id": "DEL-002",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Technology Roadmap",
+        "deliverable_id": "DEL-003",
+        "raw_csv_value": "Working on it",
+        "expected": "In Progress",
+        "actual_in_monday": "In Progress",
+        "pass": true
+      },
+      {
+        "deliverable": "Implementation Plan",
+        "deliverable_id": "DEL-004",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Executive Presentation",
+        "deliverable_id": "DEL-005",
+        "raw_csv_value": "Not Started",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Process Mapping Workshop",
+        "deliverable_id": "DEL-006",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Efficiency Analysis Report",
+        "deliverable_id": "DEL-007",
+        "raw_csv_value": "In Review",
+        "expected": "In Review",
+        "actual_in_monday": "In Review",
+        "pass": true
+      },
+      {
+        "deliverable": "KPI Dashboard Design",
+        "deliverable_id": "DEL-008",
+        "raw_csv_value": "In Progress",
+        "expected": "In Progress",
+        "actual_in_monday": "In Progress",
+        "pass": true
+      },
+      {
+        "deliverable": "Training Materials",
+        "deliverable_id": "DEL-009",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Change Management Plan",
+        "deliverable_id": "DEL-010",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Competitive Landscape Review",
+        "deliverable_id": "DEL-011",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Customer Segmentation Study",
+        "deliverable_id": "DEL-012",
+        "raw_csv_value": "Working on it",
+        "expected": "In Progress",
+        "actual_in_monday": "In Progress",
+        "pass": true
+      },
+      {
+        "deliverable": "Go-to-Market Strategy",
+        "deliverable_id": "DEL-013",
+        "raw_csv_value": "Not Started",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Financial Projections",
+        "deliverable_id": "DEL-014",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Inventory Analysis",
+        "deliverable_id": "DEL-015",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Vendor Assessment",
+        "deliverable_id": "DEL-016",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Logistics Redesign",
+        "deliverable_id": "DEL-017",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Implementation Roadmap",
+        "deliverable_id": "DEL-018",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Final Report & Handoff",
+        "deliverable_id": "DEL-019",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Journey Mapping Sessions",
+        "deliverable_id": "DEL-020",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Pain Point Analysis",
+        "deliverable_id": "DEL-021",
+        "raw_csv_value": "Done",
+        "expected": "Done",
+        "actual_in_monday": "Done",
+        "pass": true
+      },
+      {
+        "deliverable": "Service Blueprint",
+        "deliverable_id": "DEL-022",
+        "raw_csv_value": "In Progress",
+        "expected": "In Progress",
+        "actual_in_monday": "In Progress",
+        "pass": true
+      },
+      {
+        "deliverable": "Prototype Development",
+        "deliverable_id": "DEL-023",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Skills Gap Assessment",
+        "deliverable_id": "DEL-024",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Hiring Strategy Document",
+        "deliverable_id": "DEL-025",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Training Program Design",
+        "deliverable_id": "DEL-026",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      },
+      {
+        "deliverable": "Succession Planning Framework",
+        "deliverable_id": "DEL-027",
+        "raw_csv_value": "To Do",
+        "expected": "To Do",
+        "actual_in_monday": "To Do",
+        "pass": true
+      }
+    ],
+    "failures": []
+  }
+}

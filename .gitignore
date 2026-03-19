@@ -1,0 +1,10 @@
+.env
+.claude
+.vscode
+__pycache__
+*.pyc
+Interview with Rebecca*
+Technical Consultant*
+manual_nexus*
+Assignment Prompting*
+*.gdoc
